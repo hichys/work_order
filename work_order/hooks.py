@@ -137,7 +137,16 @@ doc_events = {
         "on_amend":"work_order.custom_work_order.doctype.my_work_order.on_amend",
     },
 }
-
+fixtures = ["Print Format"]
+fixtures = [{
+	"doctype": "DocType",
+            "filters": { "custom" : ["=", "1"] }
+           }, 
+    	"Custom Field",
+    	"Custom Script",
+    	"Property Setter",
+            "Print Format"
+       ]
 # Scheduled Tasks
 # ---------------
 
