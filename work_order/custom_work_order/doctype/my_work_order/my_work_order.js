@@ -85,4 +85,3 @@ function updateItemsTable(frm) {
         });
     }
 }
-

@@ -13,6 +13,7 @@ app_license = "mit"
 # app_include_css = "/assets/work_order/css/work_order.css"
 # app_include_js = "/assets/work_order/js/work_order.js"
 
+ 
 # include js, css files in header of web template
 # web_include_css = "/assets/work_order/css/work_order.css"
 # web_include_js = "/assets/work_order/js/work_order.js"
@@ -29,6 +30,8 @@ app_license = "mit"
 
 # include js in doctype views
 # doctype_js = {"doctype" : "public/js/doctype.js"}
+doctype_js = {"Sales Invoice" : "public/js/si_workOrderButtom.js"}
+
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
@@ -134,6 +137,7 @@ doc_events = {
         "on_amend":"work_order.custom_work_order.doctype.my_work_order.on_amend",
     },
 }
+
 # Scheduled Tasks
 # ---------------
 
