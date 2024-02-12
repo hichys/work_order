@@ -1,0 +1,338 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:YYYY-",
+ "creation": "2024-02-01 21:31:06.109390",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "column_break_jjwt",
+  "status",
+  "column_break_csac",
+  "\u064a\u0648\u0645_\u0627\u062c\u0631\u0627\u0621_\u0627\u0645\u0631_\u0627\u0644\u0639\u0645\u0644",
+  "section_break_u2dk",
+  "naming_series",
+  "column_break_klxh",
+  "section_break_jaew",
+  "sales_invoice_number",
+  "c_name",
+  "items",
+  "seleted_items",
+  "column_break_lubq",
+  "items_table",
+  "wo_name",
+  "\u064a\u0648\u0645_\u062a\u0633\u0644\u064a\u0645_\u0627\u0644\u0639\u0645\u0644",
+  "section_break_ivfy",
+  "qty",
+  "\u0627\u0644\u0648\u0627\u0646_\u0628\u0627\u0646\u062a\u0648\u0646",
+  "\u0639\u062f\u062f_\u0627\u0644\u0644\u0627\u0648\u0627\u0646",
+  "\u0633\u0628\u0648\u062a",
+  "column_break_ftnh",
+  "\u0648\u0631\u0646\u064a\u0634",
+  "\u0633\u0648\u0644\u0641\u0627\u0646",
+  "\u0643\u0648\u0641\u0631\u0627\u062c",
+  "\u0627\u0644\u0648\u0631\u0642_section",
+  "\u0627\u0644\u0639\u062f\u062f",
+  "\u0627\u0644\u0645\u0642\u0627\u0633",
+  "column_break_ijdn",
+  "\u0627\u0644\u062c\u0631\u0627\u0645",
+  "\u0627\u0644\u062c\u0640\u0631\u0627\u0645",
+  "\u062a\u0643\u0640\u0640\u0633\u064a\u0631_section",
+  "\u0639\u062f\u062f_\u0631\u064a\u0642\u0647_\u0628\u0644\u0627\u0633\u064a\u062a\u0643",
+  "column_break_hbme",
+  "\u0627\u0644\u0639\u062f\u062f_\u0627\u0644\u0646\u0640\u0647\u0627\u0626\u064a_\u0644\u0644\u062a\u0643\u0633\u064a\u0631",
+  "section_break_ekew",
+  "\u0645\u0640\u0640\u0644\u0627\u062d\u0638\u0627\u062a",
+  "\u0627\u0644\u0635\u0648\u0631_section",
+  "attach_image_nutv",
+  "attach_image_aqmr",
+  "attach_image_jdau",
+  "attach_image_hvxg",
+  "column_break_fibe",
+  "attach_image_oopi",
+  "attach_image_lczq",
+  "attach_image_ifog",
+  "attach_image_qvgu",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_u2dk",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_jaew",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_lubq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "\u064a\u0648\u0645_\u062a\u0633\u0644\u064a\u0645_\u0627\u0644\u0639\u0645\u0644",
+   "fieldtype": "Date",
+   "in_standard_filter": 1,
+   "label": "\u064a\u0648\u0645 \u062a\u0633\u0644\u064a\u0645 \u0627\u0644\u0639\u0645\u0644",
+   "options": "Customer"
+  },
+  {
+   "fieldname": "section_break_ivfy",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "\u0627\u0644\u0648\u0627\u0646_\u0628\u0627\u0646\u062a\u0648\u0646",
+   "fieldtype": "Data",
+   "label": "\u0627\u0644\u0648\u0627\u0646 \u0628\u0627\u0646\u062a\u0648\u0646"
+  },
+  {
+   "fieldname": "column_break_ftnh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "\u0648\u0631\u0646\u064a\u0634",
+   "fieldtype": "Data",
+   "label": "\u0648\u0631\u0646\u064a\u0634"
+  },
+  {
+   "fieldname": "\u0633\u0648\u0644\u0641\u0627\u0646",
+   "fieldtype": "Select",
+   "label": "\u0633\u0648\u0644\u0641\u0627\u0646",
+   "options": "\u0644\u0627\n\u0646\u0639\u0645"
+  },
+  {
+   "default": "Today",
+   "fieldname": "\u064a\u0648\u0645_\u0627\u062c\u0631\u0627\u0621_\u0627\u0645\u0631_\u0627\u0644\u0639\u0645\u0644",
+   "fieldtype": "Date",
+   "hidden": 1,
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "\u064a\u0648\u0645 \u0627\u062c\u0631\u0627\u0621 \u0627\u0645\u0631 \u0627\u0644\u0639\u0645\u0644",
+   "read_only": 1
+  },
+  {
+   "fieldname": "\u0639\u062f\u062f_\u0627\u0644\u0644\u0627\u0648\u0627\u0646",
+   "fieldtype": "Data",
+   "label": "\u0639\u062f\u062f \u0627\u0644\u0644\u0627\u0648\u0627\u0646"
+  },
+  {
+   "fieldname": "\u0633\u0628\u0648\u062a",
+   "fieldtype": "Data",
+   "label": "\u0633\u0628\u0648\u062a"
+  },
+  {
+   "fieldname": "\u0643\u0648\u0641\u0631\u0627\u062c",
+   "fieldtype": "Data",
+   "label": "\u0643\u0648\u0641\u0631\u0627\u062c"
+  },
+  {
+   "fieldname": "\u0627\u0644\u0648\u0631\u0642_section",
+   "fieldtype": "Section Break",
+   "label": "\u0627\u0644\u0648\u0631\u0642"
+  },
+  {
+   "fieldname": "\u0627\u0644\u0639\u062f\u062f",
+   "fieldtype": "Int",
+   "label": "\u0627\u0644\u0639\u062f\u062f"
+  },
+  {
+   "fieldname": "\u0627\u0644\u0645\u0642\u0627\u0633",
+   "fieldtype": "Data",
+   "label": "\u0627\u0644\u0645\u0642\u0627\u0633"
+  },
+  {
+   "fieldname": "column_break_ijdn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "\u0627\u0644\u062c\u0631\u0627\u0645",
+   "fieldtype": "Int",
+   "label": "\u0627\u0644\u062c\u0631\u0627\u0645"
+  },
+  {
+   "fieldname": "\u0627\u0644\u062c\u0640\u0631\u0627\u0645",
+   "fieldtype": "Int",
+   "label": "\u0627\u0644\u062c\u0640\u0631\u0627\u0645"
+  },
+  {
+   "fieldname": "\u062a\u0643\u0640\u0640\u0633\u064a\u0631_section",
+   "fieldtype": "Section Break",
+   "label": "\u062a\u0643\u0640\u0640\u0633\u064a\u0631"
+  },
+  {
+   "fieldname": "\u0639\u062f\u062f_\u0631\u064a\u0642\u0647_\u0628\u0644\u0627\u0633\u064a\u062a\u0643",
+   "fieldtype": "Int",
+   "label": "\u0639\u062f\u062f \u0631\u064a\u0642\u0647 \u0628\u0644\u0627\u0633\u064a\u062a\u0643"
+  },
+  {
+   "fieldname": "column_break_hbme",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "\u0627\u0644\u0639\u062f\u062f_\u0627\u0644\u0646\u0640\u0647\u0627\u0626\u064a_\u0644\u0644\u062a\u0643\u0633\u064a\u0631",
+   "fieldtype": "Int",
+   "label": "\u0627\u0644\u0639\u062f\u062f \u0627\u0644\u0646\u0640\u0647\u0627\u0626\u064a \u0644\u0644\u062a\u0643\u0633\u064a\u0631"
+  },
+  {
+   "fieldname": "section_break_ekew",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "\u0645\u0640\u0640\u0644\u0627\u062d\u0638\u0627\u062a",
+   "fieldtype": "Small Text",
+   "label": "\u0645\u0640\u0640\u0644\u0627\u062d\u0638\u0627\u062a"
+  },
+  {
+   "fieldname": "\u0627\u0644\u0635\u0648\u0631_section",
+   "fieldtype": "Section Break",
+   "label": "\u0627\u0644\u0635\u0648\u0631"
+  },
+  {
+   "fieldname": "attach_image_nutv",
+   "fieldtype": "Attach Image"
+  },
+  {
+   "fieldname": "attach_image_aqmr",
+   "fieldtype": "Attach Image"
+  },
+  {
+   "fieldname": "attach_image_jdau",
+   "fieldtype": "Attach Image"
+  },
+  {
+   "fieldname": "attach_image_hvxg",
+   "fieldtype": "Attach Image"
+  },
+  {
+   "fieldname": "column_break_fibe",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "attach_image_oopi",
+   "fieldtype": "Attach Image"
+  },
+  {
+   "fieldname": "attach_image_lczq",
+   "fieldtype": "Attach Image"
+  },
+  {
+   "fieldname": "attach_image_ifog",
+   "fieldtype": "Attach Image"
+  },
+  {
+   "fieldname": "attach_image_qvgu",
+   "fieldtype": "Attach Image"
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "nameing series",
+   "options": "ACC-WO-.YYYY.-"
+  },
+  {
+   "fieldname": "sales_invoice_number",
+   "fieldtype": "Link",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "\u0631\u0642\u0645 \u0627\u0644\u0641\u0627\u062a\u0648\u0631\u0629",
+   "options": "Sales Invoice",
+   "reqd": 1,
+   "set_only_once": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "\u0627\u0644\u062d\u0627\u0644\u0629",
+   "print_hide": 1
+  },
+  {
+   "fieldname": "c_name",
+   "fieldtype": "Link",
+   "label": "\u0627\u0633\u0645 \u0627\u0644\u0632\u0628\u0648\u0646",
+   "options": "Customer",
+   "reqd": 1
+  },
+  {
+   "fieldname": "wo_name",
+   "fieldtype": "Data",
+   "label": "\u0627\u0633\u0645 \u0627\u0645\u0631 \u0627\u0644\u0639\u0645\u0644",
+   "reqd": 1
+  },
+  {
+   "fieldname": "items",
+   "fieldtype": "Select",
+   "label": "items"
+  },
+  {
+   "default": "1000",
+   "fieldname": "qty",
+   "fieldtype": "Int",
+   "label": "\u0643\u0645\u064a\u0629 \u0627\u0644\u0637\u0628\u0627\u0639\u0647"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "options": "my work order"
+  },
+  {
+   "fieldname": "items_table",
+   "fieldtype": "Table",
+   "in_filter": 1,
+   "in_standard_filter": 1,
+   "label": "\u0627\u0644\u0639\u0646\u0627\u0635\u0631",
+   "options": "wo_table"
+  },
+  {
+   "fetch_from": "sales_invoice_number.total_qty",
+   "fieldname": "seleted_items",
+   "fieldtype": "Float",
+   "label": "\u0627\u0644\u0643\u0645\u064a\u0629 \u0627\u0644\u0643\u064a\u0644\u0629"
+  },
+  {
+   "fieldname": "column_break_klxh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_csac",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_jjwt",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-02-11 23:37:06.456715",
+ "modified_by": "Administrator",
+ "module": "custom work order",
+ "name": "my work order",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "amend": 1,
+   "cancel": 1,
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

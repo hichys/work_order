@@ -129,7 +129,11 @@ app_license = "mit"
 # 		"on_trash": "method"
 # 	}
 # }
-
+doc_events = {
+    "my work order": {
+        "on_amend":"work_order.custom_work_order.doctype.my_work_order.on_amend",
+    },
+}
 # Scheduled Tasks
 # ---------------
 
